@@ -1,13 +1,16 @@
 {
-    "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react"
-    ],
-    "env": {
-        "development": {
-            "plugins": [
-                "transform-react-jsx-source"
-            ]
-        }
-    }
+	"presets": [
+		"@babel/preset-env",
+		"@babel/preset-react"
+	],
+	"env": {
+		"development": {
+			"plugins": [
+				"transform-react-jsx-source"
+			]
+		}
+	},
+	"plugins": [
+		"react-html-attrs"
+	]
 }
